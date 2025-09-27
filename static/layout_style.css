@@ -1,0 +1,19 @@
+body{
+  font-family: "Prompt", sans-serif;
+}
+
+/* สีฟอนต์เมนู */
+.navbar .nav-link {
+  color: #000000;
+}
+
+/* สีเวลากด */
+.navbar-nav a:hover{
+    color: #537FE7;
+}
+
+.navbar {
+    background-color: rgba(243, 228, 228, 0.85); /* 80% opacity */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* กรอบดำจางๆ */
+    box-shadow: none;
+}

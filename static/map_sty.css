@@ -1,0 +1,17 @@
+.map-box {
+  max-width: 500px;
+  margin: 0 auto 18px;
+}
+
+.map-box img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.map-caption {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #222;
+}

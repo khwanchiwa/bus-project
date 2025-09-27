@@ -1,0 +1,77 @@
+.discount-title {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.discount-title .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.discount-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(210, 209, 209, 0.45);
+    z-index: -1;
+ }
+
+.page-container {
+  display: flex;
+  justify-content: center;   /* กลางแนวนอน */
+  align-items: center;       /* กลางแนวตั้ง */
+  min-height: 100vh;         /* สูงเต็มจอ */
+}
+
+/* กล่องฟอร์ม */
+.form-container {
+  width: 600px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85); /* สีพื้นหลังขาวโปร่งใส */
+  border-radius: 12px;  /* ขอบมน */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ข้อความในบล็อค */
+.form-container label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.col {
+  flex: 1;
+}
