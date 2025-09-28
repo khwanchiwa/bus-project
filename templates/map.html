@@ -1,14 +1,23 @@
 {% extends "layout.html"%}
 {% block content %}
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='map_sty.css') }}">
+    <title>SongThaew</title>
+</head>
 <body>
-    <div class="map-box">
-        <img src="/static/pic/map1.png" alt="แผนที่ 1">
-        <p class="map-caption">
-            ป้ายหน้ามหาวิทยาลัยพะเยา 2WJG+8GM มหาวิทยาลัย พะเยา ถ. พหลโยธิน ตำบลแม่กา อำเภอเมืองพะเยา พะเยา 56000
-กรีนบัส GREENBUS แยกเกษตรสุข 107 ตำบลแม่กา อำเภอเมือง พะเยา 56000
-        </p>
+        <div class="map-box">
+            <img src="/static/pic/map1.png" alt="แผนที่ 1">
+            <p class="map-caption">
+                ป้ายหน้ามหาวิทยาลัยพะเยา 2WJG+8GM มหาวิทยาลัย พะเยา ถ. พหลโยธิน ตำบลแม่กา อำเภอเมืองพะเยา พะเยา 56000
+                กรีนบัส GREENBUS แยกเกษตรสุข 107 ตำบลแม่กา อำเภอเมือง พะเยา 56000
+            </p>
     </div>
 </body>
+</html>
 
 {% endblock %}

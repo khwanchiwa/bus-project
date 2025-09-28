@@ -1,0 +1,46 @@
+{% extends "layout.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='contact_sty.css') }}">
+    <title>SongThaew</title>
+</head>
+<body>
+    <div class="discount-title">
+        <img src="../static/pic/Kwan.png" alt="" class="img">
+        <table>
+            <tr>
+                <th>รายชื่อ</th>
+                <th>Tel.</th>
+                <th>ป้ายทะเบียน</th>
+            </tr>
+            <tr>
+                <td>นายสมชาย มีสุข</td>
+                <td>099-432-6600</td>
+                <td>กก 96</td>
+            </tr>
+            <tr>
+                <td>นายประสิทธิ์ คำดี</td>
+                <td>082-444-9999</td>
+                <td>กท 2653</td>
+            </tr>
+            <tr>
+                <td>นายดำรง เกิดแก้ว</td>
+                <td>063-666-4242</td>
+                <td>นย 555</td>
+            </tr>
+            <tr>
+                <td>นางพิมพา ดวงแก้ว</td>
+                <td>093-443-2323</td>
+                <td>คค 4646</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+{% endblock %}
